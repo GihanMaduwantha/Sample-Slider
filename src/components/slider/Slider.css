@@ -1,0 +1,43 @@
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  border: 2px solid #333;
+}
+
+
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(78, 8, 241, 0.5);
+  color: rgb(226, 21, 21);
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.7s;
+  z-index: 1;
+}
+
+
+
+.s-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .imgediv {
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    .imgediv {
+      margin-left: 50px;
+      text-align: center;
+    }
+  }
+  
+    
